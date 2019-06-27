@@ -1,0 +1,16 @@
+div {
+    background-color: gray;
+}
+
+p {
+    width: 60%;
+}
+
+img {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,4 +1,10 @@
 .toolbar {
     justify-content: space-evenly;
     background-color:white;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
