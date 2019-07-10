@@ -8,6 +8,7 @@ import { HomePageModule } from './home-page/home-page.module';
 import { MatButtonModule } from '@angular/material/button';
 import { ProjectsModule } from './projects/projects.module';
 import { MultiTenantProjectModule } from './projects/multi-tenant-project/multi-tenant-project.module';
+import { ContactModule } from './contact/contact.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MultiTenantProjectModule } from './projects/multi-tenant-project/multi-
     BrowserModule,
     AppRoutingModule,
     ResumeProjectModule,
+    ContactModule,
     MultiTenantProjectModule,
     ProjectsModule,
     HomePageModule,

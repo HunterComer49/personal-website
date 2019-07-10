@@ -4,9 +4,11 @@ import { ResumeProjectComponent } from './projects/resume-project/resume-project
 import { HomePageComponent } from './home-page/home-page.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { MultiTenantProjectComponent } from './projects/multi-tenant-project/multi-tenant-project.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: 'home', component: HomePageComponent },
+  { path: 'contact-me', component: ContactComponent},
   { path: 'projects', component: ProjectsComponent },
   { path: 'projects/resume', component: ResumeProjectComponent },
   { path: 'projects/multi-tenant', component: MultiTenantProjectComponent },
